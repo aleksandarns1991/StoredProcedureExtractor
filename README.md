@@ -1,4 +1,4 @@
-# Stored Procedur eExtractor
+# Stored Procedure Extractor
 
 Simple application that extracts stored procedures from MS-SQL server.
 
