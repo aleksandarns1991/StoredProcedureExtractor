@@ -24,8 +24,6 @@ namespace StoredProcedureExtractor.DataAccess
                 {
                     using var writer = new StreamWriter(filePath, true);
                     writer.WriteLine(procedure.SourceCode);
-                    writer.Close();
-
                     count++;
                 }
                 catch (Exception ex)
